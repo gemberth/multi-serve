@@ -1,0 +1,59 @@
+version: "3"
+services:
+  mongodb:
+    image: mongo
+    env_file: 
+      - ./env/mongo.env
+    ports:
+      - 27017:27017
+    volumes:
+      - ./data/db:/data/db
+  backend:
+    build: ./backend
+    # ports:
+    #   - '3000:3000'
+    env_file: 
+      - ./env/backend.env
+    depends_on:
+      - mongodb
+    volumes:
+      - ./backend:/app
+  service-jinete:
+    build: ./service/jinete
+    volumes:
+      - ./service/jinete:/app
+    # ports:
+    #   - '3000:3000'
+    env_file: 
+      - ./env/backend.env
+    depends_on:
+      - mongodb
+  service-carrera:
+    build: ./service/carrera
+    volumes:
+      - ./service/carrera:/app
+    # ports:
+    #   - '3000:3000'
+    env_file: 
+      - ./env/backend.env
+    # depends_on:
+    #   - mongodb
+  frontend:
+    build: ./frontend
+    ports:
+      - '5173:5173'
+    env_file: 
+      - ./env/frontend.env
+    depends_on: 
+      - backend
+      - service-caballo
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - service-carrera
+      - backend
+      - service-jinete

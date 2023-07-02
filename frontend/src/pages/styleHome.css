@@ -1,0 +1,12 @@
+
+.img-talla {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 5px;
+    filter: grayscale(50%);
+    display: block;
+    margin: auto;
+  }

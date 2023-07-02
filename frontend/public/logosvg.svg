@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 455.85 421.94">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="87.55" y1="-423.04" x2="414.67" y2="-34.82" gradientTransform="translate(182.97 645.99) rotate(-45)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="aqua"/>
+      <stop offset=".51" stop-color="#00abff"/>
+      <stop offset="1" stop-color="#0062ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="237.24" y1="210.28" x2="371.11" y2="210.28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#007e3d"/>
+      <stop offset=".5" stop-color="#55b848"/>
+      <stop offset="1" stop-color="#a2cc39"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="127.12" y1="264.8" x2="320.52" y2="264.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff0"/>
+      <stop offset=".51" stop-color="#ffa100"/>
+      <stop offset="1" stop-color="#ff5100"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="250.6" y1="97.33" x2="302.51" y2="97.33" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-5" x1="192.16" y1="-460.02" x2="270.36" y2="-367.2" gradientTransform="translate(148.85 562.45) rotate(-40.23)" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-6" x1="625.31" y1="-1067.26" x2="703.51" y2="-974.46" gradientTransform="translate(749.54 684.35) rotate(-87.34) scale(.72)" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-7" x1="-265.97" y1="203.81" x2="-187.78" y2="296.6" gradientTransform="translate(294.47 -122.48) rotate(2.56) scale(.72)" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g>
+    <path class="cls-6" d="m394.82,338.61c-78.98,73.72-202.78,69.44-276.5-9.54-33.08-35.46-50.41-79.92-52.38-124.85-6.21,54.89,10.68,112.03,51.32,155.57,73.71,78.99,197.51,83.26,276.49,9.54,43.54-40.63,64.33-96.49,61.91-151.66-5.04,44.67-25.4,87.85-60.85,120.93Z"/>
+    <path class="cls-1" d="m369.33,0s.92,66.52-51.63,116.21c-65.79,62.2-91.16,113.69-76.38,160.77,14.77,47.08,56.42,76.52,18.67,143.58,0,0,46.5-48.03,11.67-124.35-11.8-25.84-30.46-63.38,38.11-139.59C373.09,86.24,374.25,42.8,369.33,0Z"/>
+    <path class="cls-5" d="m127.12,141.34s152.08-63.63,188.04,44.26c40.01,120.04-156.99,221.3-156.99,221.3,0,0,146.46-106.93,134.11-197.32-14.78-108.3-165.16-68.23-165.16-68.23Z"/>
+    <path class="cls-7" d="m302.51,97.33c0,14.34-11.62,25.96-25.96,25.96s-25.95-11.62-25.95-25.96,11.62-25.95,25.95-25.95,25.96,11.62,25.96,25.95Z"/>
+  </g>
+  <g>
+    <path class="cls-3" d="m31.68,52.82s5.82,81.84,78.97,93.36c0,0,7.34-66.26-78.97-93.36Z"/>
+    <path class="cls-2" d="m0,163.87s46.08,37.08,88.07,4.11c0,0-31.4-36.41-88.07-4.11Z"/>
+    <path class="cls-4" d="m130.7,13.86s-37,46.15-3.94,88.07c0,0,36.34-31.46,3.94-88.07Z"/>
+  </g>
+</svg>

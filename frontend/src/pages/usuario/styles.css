@@ -1,0 +1,14 @@
+.contenedor{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.textp {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+  }
