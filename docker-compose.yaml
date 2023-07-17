@@ -46,7 +46,7 @@ services:
       - ./env/frontend.env
     depends_on: 
       - backend
-      - service-caballo
+      # - service-caballo
   nginx:
     image: nginx:latest
     ports:
